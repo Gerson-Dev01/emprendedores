@@ -25,7 +25,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           react: ['react', 'react-dom', 'react-router-dom'],
-          vendor: ['axios', 'react-icons'],
+          vendor: ['react-icons'],  // axios eliminado se agregara despues
           charts: ['recharts', 'chart.js'],
         },
       },
